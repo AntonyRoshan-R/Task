@@ -25,16 +25,3 @@ for i in a:
         total[i] += 1
 c = max(total, key = total.get)
 print(a.replace(c,b))
-
-
-
-
-
-'''
-a = input().strip()
-if len(a)>1 and a == a.lower():
-	if a == a[::-1]:
-		print(a)
-	else:
-		print(a[:2][::-1])
-		'''
